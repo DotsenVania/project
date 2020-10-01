@@ -1,12 +1,11 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AGAA,AAAA,EAAE,CAAC;EACC,WAAW,EAAE,mBAAmB;CAAG",
     "sources": [
         "../sass/style.sass",
-        "../sass/_general.sass",
         "../sass/_variables.sass",
         "../sass/_mixins.sass",
-        "../sass/_fonts.sass",
+        "../sass/_general.sass",
         "../sass/_media.sass"
     ],
     "names": [],
