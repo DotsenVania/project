@@ -1,0 +1,13 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../sass/style.sass",
+        "../sass/_general.sass",
+        "../sass/_variables.sass",
+        "../sass/_mixins.sass",
+        "../sass/_media.sass"
+    ],
+    "names": [],
+    "file": "style.min.css"
+}
