@@ -6,6 +6,7 @@
         "../sass/_general.sass",
         "../sass/_variables.sass",
         "../sass/_mixins.sass",
+        "../sass/_fonts.sass",
         "../sass/_media.sass"
     ],
     "names": [],
