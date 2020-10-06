@@ -1,0 +1,14 @@
+.title {
+    font-size: 30px;
+    font-family: "Museo Sans Cyrl 700";
+    color: rgb(13, 13, 13);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    &_left{
+        font-size: 36px;
+        color: rgb(255, 255, 255);
+        text-align: left;
+    }
+}

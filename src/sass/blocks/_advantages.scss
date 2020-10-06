@@ -1,0 +1,38 @@
+.advantages {
+    min-height: 350px;
+    padding: 70px 0 69px 0;
+    background-color: #f6f6f6;
+    &__blocks2{
+        display: flex;
+        justify-content: space-between;
+        max-width: 931px;
+        margin-top: 64px;
+    }
+    &__blocks {
+        display: flex;
+        flex-direction: column;
+        max-width: 290px;
+        .advantages__title, .advantages__subtitle {
+            text-align: center;
+            width: 260px;
+        }
+        &__block {
+            display: flex;
+            justify-content: center;
+        }
+    }
+    &__title {
+        margin-top: 38px;
+        font-size: 18px;
+        font-family: "Museo Sans Cyrl 500";
+        color: rgb(13, 13, 13);
+    }
+    &__subtitle{
+        font-size: 14px;
+        font-family: "Museo Sans Cyrl 300";
+        color: rgb(13, 13, 13);
+        a {
+            color: red;
+        }
+    }
+}
