@@ -295,6 +295,10 @@
   margin-bottom: 20px;
 }
 
+.carousel {
+  padding: 81px 0;
+}
+
 @media (max-width: 1200px) {
   .promo {
     background: url(../img/bg1.jpg) center center/cover no-repeat;
