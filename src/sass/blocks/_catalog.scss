@@ -27,15 +27,17 @@
         &:hover {
             box-shadow: 3px 3px 20px $main-color;
             border: none;
-        }
-        div {
-            transform: skew(25deg);
+            
         }
         &_active {
             color: #fff;
             background-color: $main-color;
             border: none;
         }
+        div {
+            transform: skew(25deg);
+        }
+        
     }
     &__content {
         margin-top: 60px;
@@ -111,10 +113,10 @@
             width: calc(200% + 75px);
         }
         &__content {
-            width: 50%;
             margin-right: 0px;
             transform: translateX(100%);
             transition: 0.5s all;
+            width: 50%;
             &_active {
                 margin-right: 20px;
                 transform: translateX(0%);

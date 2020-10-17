@@ -376,15 +376,15 @@
   border: none;
 }
 
-.catalog__tab div {
-  -webkit-transform: skew(25deg);
-          transform: skew(25deg);
-}
-
 .catalog__tab_active {
   color: #fff;
   background-color: #c70101;
   border: none;
+}
+
+.catalog__tab div {
+  -webkit-transform: skew(25deg);
+          transform: skew(25deg);
 }
 
 .catalog__content {
@@ -488,12 +488,12 @@
 }
 
 .catalog-item__content {
-  width: 50%;
   margin-right: 0px;
   -webkit-transform: translateX(100%);
           transform: translateX(100%);
   -webkit-transition: 0.5s all;
   transition: 0.5s all;
+  width: 50%;
 }
 
 .catalog-item__content_active {
@@ -556,6 +556,63 @@
 
 .catalog-item__back:hover {
   color: #c70101;
+}
+
+.reviews {
+  min-height: 945px;
+}
+
+.reviews__clients {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 70px 0 70px 0;
+}
+
+.reviews__client {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.reviews__img {
+  margin-right: 64px;
+}
+
+.reviews__name {
+  font-size: 18px;
+  font-family: "Museo Sans Cyrl 700";
+  color: #0d0d0d;
+  margin: 0;
+}
+
+.reviews__info {
+  margin-top: 5px;
+  font-size: 14px;
+  font-family: "Museo Sans Cyrl 300";
+  color: #646464;
+}
+
+.reviews__descr {
+  font-size: 16px;
+  font-family: "Museo Sans Cyrl 500";
+  color: #0d0d0d;
+  line-height: 1.2;
+  margin-top: 19px;
+}
+
+hr {
+  border: 1px solid #f6f6f6;
+  border-bottom: 0;
+  width: 100%;
+  margin: 47px;
 }
 
 @media (max-width: 1200px) {
