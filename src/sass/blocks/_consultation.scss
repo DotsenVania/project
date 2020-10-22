@@ -8,4 +8,14 @@
         font-family: "Museo Sans Cyrl 500";
         color: rgb(255, 255, 255);
     }
+    .error {
+        border: 1px solid red;
+    }
+    label.error {
+        color: white;
+        font-family: "Museo Sans Cyrl 500";
+        border: none; 
+        text-align: center;
+        margin-bottom: 15px;
+    }
 }

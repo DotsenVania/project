@@ -258,6 +258,18 @@
   color: white;
 }
 
+.consultation .error {
+  border: 1px solid red;
+}
+
+.consultation label.error {
+  color: white;
+  font-family: "Museo Sans Cyrl 500";
+  border: none;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
 .title {
   font-size: 30px;
   font-family: "Museo Sans Cyrl 700";
@@ -744,6 +756,17 @@ hr {
 
 .modal_height {
   min-height: 140px;
+}
+
+.modal .error {
+  border: 1px solid red;
+}
+
+.modal label.error {
+  font-family: "Museo Sans Cyrl 500";
+  border: none;
+  text-align: center;
+  margin-bottom: 15px;
 }
 
 #consultation, #order, #thanks {
