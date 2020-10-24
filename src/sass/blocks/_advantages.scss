@@ -19,6 +19,14 @@
         &__block {
             display: flex;
             justify-content: center;
+            &__animation
+            {
+                animation: heartbeat 1.5s ease infinite;
+                
+                &:hover {
+                    animation-play-state: paused;
+                }
+            }
         }
     }
     &__title {

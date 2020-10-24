@@ -1,3 +1,7 @@
+@import "libs/stylesheet";
+@import "libs/animate";
+@import "libs/slick";
+
 @import "variables";
 @import "mixins";
 @import "general";
@@ -13,4 +17,6 @@
 @import "blocks/reviews";
 @import "blocks/footer";
 @import "blocks/modal";
+@import "blocks/pageup";
+@import "blocks/animation";
 @import "media";
